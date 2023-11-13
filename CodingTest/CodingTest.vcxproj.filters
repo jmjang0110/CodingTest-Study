@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="필요한 함수 정리">
+      <UniqueIdentifier>{a80add9d-96a0-466d-b53b-053f75be1ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="게임 온라인 공채대비 코딩캠프">
+      <UniqueIdentifier>{41dcfb9c-9c3a-40ca-91f5-eb4c1659908b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest">
+      <UniqueIdentifier>{40153577-9e3c-4035-8dad-8eda27c67efb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="baekjoon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithSolution.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>필요한 함수 정리</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCodingCamp.cpp">
+      <Filter>게임 온라인 공채대비 코딩캠프</Filter>
+    </ClCompile>
+    <ClCompile Include="CodingTestMgr.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>필요한 함수 정리</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCodingCamp.h">
+      <Filter>게임 온라인 공채대비 코딩캠프</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingTestMgr.h">
+      <Filter>CodingTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
